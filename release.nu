@@ -5,6 +5,6 @@ echo "Building project"
 
 # 2. Crea lo zip con PowerShell
 echo "Creating ZIP file"
-^powershell Compress-Archive -Path dist,'src/locales','src/fxmanifest.lua','src/config.json' -DestinationPath resource.zip -Force
+^powershell Compress-Archive -Path dist,'src/locales','src/fxmanifest.lua','src/config.json' -DestinationPath release.zip -Force
 
 echo "Process completed"
